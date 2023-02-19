@@ -1,25 +1,27 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background: #202639;
 }
 
 h1 {
-  color: rgb(135, 135, 135);
-  font-size: 24px;
-  font-weight: 100;
+  color: #202639;
+  font-size: 30px;
+  font-weight: 250;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 ul {
   margin: 0;
   padding: 0;
 }
 li {
-  color: rgb(135, 135, 135);
+  color: #202639;
   margin: 0;
   padding: 0;
   list-style: none;
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -35,8 +37,15 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
 }
+
 .overview {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .weather-temperature img {
@@ -44,8 +53,9 @@ li:first-letter {
   height: 64px;
   width: 64px;
 }
+
 .weather-temperature strong {
-  color: black;
+  color: #202639;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -55,14 +65,8 @@ li:first-letter {
   font-size: 16px;
   top: -34px;
 }
-.weather-temperature .active {
-  color: black;
-  cursor: default;
-}
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
 .weather-forecast {
+  color: #202639;
   margin-top: 20px;
   text-align: center;
 }
@@ -77,4 +81,14 @@ li:first-letter {
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+.name {
+  color: white;
+}
+.btn {
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
 }

@@ -20,16 +20,16 @@
         <div class="weather-app">
           <form id="search-form" class="mb-3">
             <div class="row">
-              <div class="col-9">
+              <div class="col-8">
                 <input
                   type="search"
-                  placeholder="Type a city..."
+                  placeholder="Search for a city..."
                   class="form-control"
                   id="city-input"
                   autocomplete="off"
                 />
               </div>
-              <div class="col-3">
+              <div class="col-4">
                 <input
                   type="submit"
                   value="Search"
@@ -42,13 +42,13 @@
             <h1 id="city"></h1>
             <h2>
               <ul>
-                <li>Last updated: <span id="date"></span></li>
+                <li><span id="date"></span></li>
                 <li id="weather-description"></li>
               </ul>
             </h2>
           </div>
           <div class="row">
-            <div class="col-6">
+            <div class="col-8">
               <div class="d-flex weather-temperature">
                 <img src="" alt="Clear" id="icon" />
                 <div>
@@ -57,10 +57,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-4">
               <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> m/h</li>
+                <li><span id="humidity"></span>% Humidity</li>
+                <li><span id="wind"></span> m/h Winds</li>
               </ul>
             </div>
           </div>
@@ -70,7 +70,7 @@
           <a href="https://github.com/amanda-n-zen/weather-app" target="_blank">
             Open-source code,</a
           >
-          by Amanda Zenere
+          <span class="name">by Amanda Zenere</span>
         </small>
       </div>
     </div>
